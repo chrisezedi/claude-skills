@@ -32,6 +32,7 @@ These must appear on the frontier at some point during the session — if the de
 - If there's a gap between user action and processing (queues, async jobs), what can change in that gap?
 - What's the blast radius if this fails? Who gets paged?
 - Is there a migration path, or is this a clean deploy?
+- What other modules read or depend on the state this feature changes? Walk through each one — what do they show before vs after?
 
 ## When to stop
 

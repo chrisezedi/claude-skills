@@ -28,7 +28,7 @@ If the project is too large for a single spec, help the user decompose into sub-
 - One question per message — never batch questions
 - Prefer multiple choice when possible
 - Focus on understanding: purpose, constraints, success criteria
-- If a question can be answered by exploring the codebase, explore the codebase instead of asking the user
+- **Verify from code before asking.** If a question can be answered by reading the codebase, read the code first, present what you find, and ask the user to confirm — never ask "how does X work?" when the answer is in the code.
 - **Only ask about behaviour, never about implementation.** PBIs describe what the user sees and experiences. Technical decisions (caching, endpoint structure, API call patterns) are ours to make during spec and planning — not questions for the user during flesh-out. If a PBI contains technical suggestions from AI-generated content, ignore them and focus on the behavioural intent.
 
 ### 4. Propose approaches
@@ -36,7 +36,7 @@ If the project is too large for a single spec, help the user decompose into sub-
 Once you understand the problem:
 
 - Propose 2-3 different approaches with trade-offs
-- Lead with your recommended option and explain why
+- **Always recommend the proper fix, not the easy one.** Lead with the right engineering decision. If a simpler option is better for now, explain why — but always name the proper fix and what trade-off you're making by not doing it.
 - Have a strong opinion — push back on suboptimal approaches
 
 ### 5. Present the design
