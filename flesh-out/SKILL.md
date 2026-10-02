@@ -64,3 +64,4 @@ When the user approves the full design, say:
 - Never skip the approach comparison — always propose 2-3 options even if one is obvious
 - Always explore existing code before proposing changes
 - Always ask about production impact before presenting the design as complete
+- **Never assume how the codebase works.** Always read and verify from code before stating facts about existing behaviour, models, services, or data flow. If you haven't read the code, you don't know — go read it first.

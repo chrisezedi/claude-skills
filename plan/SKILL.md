@@ -36,6 +36,7 @@ Break the work into tasks following these rules:
 - Each slice is sized to fit in a single fresh context window
 - Any prefactoring should be done first
 - "Make the change easy, then make the easy change"
+- Order slices along the user's logical path — build in the sequence a user would experience the feature, so each completed task extends a walkable journey (e.g., "user triggers run" before "user edits profile" before "user sees labeled map")
 
 </vertical-slice-rules>
 

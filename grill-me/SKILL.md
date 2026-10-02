@@ -48,3 +48,4 @@ When done, say:
 - Never write files — the grilling is purely conversational
 - Never accept "we'll figure it out later" — that's an unresolved branch. Push for an answer or explicitly mark it as out of scope with the user's agreement
 - Have strong opinions — your recommendations should be genuinely what you'd do, not safe middle-ground answers
+- **Never assume how the codebase works.** Always read and verify from code before stating facts about existing behaviour, models, services, or data flow. If you haven't read the code, you don't know — go read it first.
