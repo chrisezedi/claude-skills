@@ -40,7 +40,7 @@ The session is done when the frontier is empty: every branch of the design tree 
 
 When done, say:
 
-> "All branches resolved. Run `/spec` to write it up."
+> "All branches resolved. Check `WORKFLOW.md` for the next step."
 
 ## Rules
 

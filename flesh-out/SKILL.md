@@ -53,7 +53,7 @@ Once the user picks an approach:
 
 When the user approves the full design, say:
 
-> "Design approved. Run `/grill-me` to stress-test it before writing the spec."
+> "Design approved. Check `WORKFLOW.md` for the next step."
 
 **Do NOT write a spec.** Do NOT invoke any other skill. Your job is done.
 

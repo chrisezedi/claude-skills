@@ -90,9 +90,9 @@ Wait for the user's response before proceeding.
 ### 5. Next step
 
 Based on the verdict:
-- **Proceed** → "Run `/archify` to generate design diagrams, then `/plan`."
-- **Proceed with changes** → List the specific changes needed. User updates the spec, then re-run council or proceed.
-- **Revisit spec** → "Fundamental concerns were raised. Run `/spec` to revise the design."
+- **Proceed** → "Check `WORKFLOW.md` for the next step."
+- **Proceed with changes** → List the specific changes needed. User updates the spec, then check `WORKFLOW.md` for the next step.
+- **Revisit spec** → "Fundamental concerns were raised. Check `WORKFLOW.md` for the next step."
 
 ## Rules
 

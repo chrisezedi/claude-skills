@@ -19,9 +19,11 @@ Investigate a question about an external library, API, or service using primary 
 
 State the specific question. Not "how does BullMQ work" but "how does BullMQ handle job retries when the processor throws?"
 
-### 2. Find the documentation
+### 2. Ask the user for documentation
 
-Use this order:
+**Always ask the user first.** Present the list of topics that need documentation and ask the user to provide the relevant docs (URLs, pasted content, or files). The user may have access to pages that are behind auth, too long for WebFetch to capture fully, or contain pricing/model details that get truncated.
+
+If the user doesn't have the docs or tells you to find them yourself, then fall back to this order:
 1. Known docs URL (e.g., `https://docs.nestjs.com/`) — fetch directly with WebFetch
 2. If unsure of the URL, check `package.json` for the library version, then find the repo README for a docs link
 3. For open-source libraries, read the source code on GitHub via raw URLs or `gh api`
@@ -47,6 +49,10 @@ Write a markdown file with:
 ### 5. Report back
 
 Summarise the key findings. Flag anything that contradicts assumptions made in the spec or plan.
+
+### 6. Confirm claims from fetched content
+
+Every factual claim (model names, method signatures, config options, API endpoints) must be confirmed from content you actually fetched in this session — not from training data or memory. If a claim cannot be traced back to a specific fetched doc page or source file, mark it as **unverified** in the research document.
 
 ## Constraints
 
